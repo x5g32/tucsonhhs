@@ -13,11 +13,11 @@ const Footer = () => {
                 <div className="footerbox3">
                     <Link className="footerlink" to="/">Home</Link> | <Link className="footerlink" to="/Services">Services</Link> | <Link className="footerlink" to="/About">Experience</Link> | <Link className="footerlink" to="/Contact">Contact</Link>
                     <br />
-                    <a href="https://dev.to/x5g32" target="_blank">
-                        <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="DEV Profile" class="footericonlink" />
+                    <a href="https://dev.to/x5g32" target="_blank" rel="noopener noreferrer">
+                        <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="DEV Profile" className="footericonlink" />
                     </a>
                     <a href="https://github.com/x5g32/tucsonhhs">
-                        <img src={GHMark} alt="x5g32 GitHub" class="footericonlink" />
+                        <img src={GHMark} alt="x5g32 GitHub" className="footericonlink" />
                     </a>
                 </div>
             </div>

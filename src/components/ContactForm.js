@@ -93,21 +93,34 @@ class ContactForm extends Component {
         })
     }
 
-    sendMail = (props) => {
+    sendMail = (dataToSubmit) => {
+
+        const request = new Request('http://localhost:3000/', {method: 'POST', body: JSON.stringify(dataToSubmit.message)});
+        console.log(request);
+
+        fetch(request)
+        .then(response => {
+            console.log(response);
+        })
 
         /*
-        let mailOptions = {
-            from: '<no-reply@tucsonhhs.com>',
-            to: '<no-reply@tucsonhhs.com>',
-            subject: 'New message',
-            text: 'Message: '+props.message
-        };
-        
-        let send = transporter.sendMail(mailOptions)
-        return send;
+        fetch(request)
+        .then(response => {
+            if (response.status === 200) {
+            return response.json();
+            } else {
+            throw new Error('Something went wrong on api server!');
+            }
+        })
+        .then(response => {
+            console.debug(response);
+            // ...
+        }).catch(error => {
+            console.error(error);
+        });
         */
 
-        return props;
+        return dataToSubmit;
     }
 
     submitForm = (event) => {
@@ -118,10 +131,8 @@ class ContactForm extends Component {
             dataToSubmit[key] = this.state.formData[key].value;
         }
 
-        console.log(dataToSubmit)
-        let send = this.sendMail(dataToSubmit);
-        console.log(send)
-        
+        console.log(dataToSubmit);
+        this.sendMail(dataToSubmit);
     }
 
     render(){
