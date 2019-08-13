@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import About2 from '../images/About2.jpg';
 import Experience from '../components/Experience.js';
-import Disclaimer from '../components/Disclaimer.js';
 
 const About = () => {
     return (
@@ -21,7 +20,6 @@ const About = () => {
                     <Link className="mainlink" to="/">Home</Link>
                     <Link className="mainlink" to="/Contact">Contact Us Now!</Link>
                 </div>
-                <Disclaimer />
             </div>
         </div>
     )
