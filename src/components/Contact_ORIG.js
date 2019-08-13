@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ContactForm from './ContactForm.js';
+import ContactForm from './ContactForm.js'
 
 const Contact = () => {
     return (
@@ -24,12 +24,12 @@ const Contact = () => {
                     </tbody>
                 </table>
                 <p className="call">* Available during normal business hours<br />Monday - Friday, 9:00 am to 5:00 pm.</p>
-                <p className="center">Why not send us a message right now!<br />We strive to respond to messages as quickly as possible.</p>
-                <h1>Send Us A Message</h1>
             </div>
+
             <div className="mainbox2">
                 <ContactForm />
             </div>
+
             <div className="linkbox">
                     <Link className="mainlink" to="/Services">Our Services</Link>
                     <Link className="mainlink" to="/About">Skills & Expertise</Link>
