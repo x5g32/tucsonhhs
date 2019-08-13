@@ -95,7 +95,7 @@ class ContactForm extends Component {
 
     sendMail = (dataToSubmit) => {
 
-        const request = new Request('http://localhost:3001/db/server.js', {method: 'POST', body: JSON.stringify(dataToSubmit.message)});
+        const request = new Request('http://localhost:3000/', {method: 'POST', body: JSON.stringify(dataToSubmit.message)});
         console.log(request);
 
         fetch(request)

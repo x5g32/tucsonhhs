@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import About2 from '../images/About2.jpg';
 import Experience from '../components/Experience.js';
-import Qualifications from '../components/Qualifications.js';
 
 const About = () => {
     return (
@@ -15,7 +14,6 @@ const About = () => {
                 </div>
             </div>
             <Experience />
-            <Qualifications />
             <div className="mainbox2">
                 <div className="linkbox">
                     <Link className="mainlink" to="/Services">Our Services</Link>
