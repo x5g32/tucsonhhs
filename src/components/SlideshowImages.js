@@ -67,7 +67,7 @@ const SlideshowImages = [
     },
     {
         img: image9,
-        info: 'Custom tile shower for special needs'
+        info: 'Custom tile shower'
     },
     {
         img: image10,
