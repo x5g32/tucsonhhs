@@ -17,8 +17,7 @@ const Home = () => {
                 <ServicesHome />
                 <div className="linkbox linkboxhome">
                     <Link className="mainlink" to="/Services">Our Services</Link>
-                    <Link className="mainlink" to="/About">Skills & Expertise</Link>
-                    <Link className="mainlink" to="/Contact">Contact Us Now!</Link>
+                    <Link className="mainlink" to="/Background">Skills & Expertise</Link>
                 </div>
             </div>
             <Map />

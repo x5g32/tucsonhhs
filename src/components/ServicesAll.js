@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Slideshow from './Slideshow.js';
 
 import Home1 from '../images/Home1.png';
 import icon1 from '../images/icons/1.png';
@@ -46,11 +45,7 @@ const ServicesAll = () => {
             <div className="mainbox1">
                 <h1>Repairs & Improvements</h1>
                 <img src={Home1} className="image1" alt="Services" />
-                <p>Want to renovate your home, straighten up your garage, or repair some plumbing? Andrew and Kevin have more than 20 years of combined <Link className="textlink" to="/About">experience</Link> working on a wide variety of handyman jobs.</p>
-            </div>
-            <div className="mainbox2">
-                <h1 className="slideshow-title">Our Work</h1>
-                <Slideshow />
+                <p>Want to renovate your home, straighten up your garage, or repair some plumbing? Andrew and Kevin have more than 20 years of combined <Link className="textlink" to="/Background">experience</Link> working on a wide variety of handyman jobs.</p>
             </div>
             <div className="mainbox1">
                 <h1 id="AllServices">Our Services</h1>
@@ -213,8 +208,7 @@ const ServicesAll = () => {
                     </div>
                 </div>
                 <div className="linkbox">
-                    <Link className="mainlink" to="/">Home</Link>
-                    <Link className="mainlink" to="/About">Skills & Expertise</Link>
+                    <Link className="mainlink" to="/Work">View Slideshow</Link>
                     <Link className="mainlink" to="/Contact">Contact Us Now!</Link>
                 </div>
             </div>

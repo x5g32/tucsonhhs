@@ -19,7 +19,6 @@ const About = () => {
             <div className="mainbox2">
                 <div className="linkbox">
                     <Link className="mainlink" to="/Services">Our Services</Link>
-                    <Link className="mainlink" to="/">Home</Link>
                     <Link className="mainlink" to="/Contact">Contact Us Now!</Link>
                 </div>
             </div>

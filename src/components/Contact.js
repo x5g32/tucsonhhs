@@ -27,8 +27,7 @@ const Contact = () => {
             </div>
             <div className="linkbox">
                     <Link className="mainlink" to="/Services">Our Services</Link>
-                    <Link className="mainlink" to="/About">Skills & Expertise</Link>
-                    <Link className="mainlink" to="/">Home</Link>
+                    <Link className="mainlink" to="/Background">Skills & Expertise</Link>
             </div>
         </div>
     )
