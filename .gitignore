@@ -335,3 +335,6 @@ ASALocalRun/
 db/**
 *.png
 build/**
+build/asset-manifest.json
+build/index.html
+build/service-worker.js
