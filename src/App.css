@@ -522,12 +522,7 @@ p.center {
 }
 
 .hhdp {
-  font-size: 2.2vmin;
-  padding-top: 1vh;
-}
-
-.hhdp-center {
-  font-size: 2.2vmin;
+  font-size: 2.8vmin;
   padding-top: 1vh;
   text-align: center;
 }
@@ -535,7 +530,7 @@ p.center {
 .HHD1 {
   float: right;
   margin: 0 0 0 20px;
-  width: 40vw;
+  width: 50vw;
   max-width: 1000px;
   height: auto;
 }
@@ -544,7 +539,7 @@ p.center {
   float: left;
   border: 1px solid #000000;
   margin: 0 20px 0 0;
-  width: 40vw;
+  width: 50vw;
   max-width: 1000px;
   height: auto;
 }
@@ -553,7 +548,7 @@ p.center {
   float: right;
   border: 1px solid #000000;
   margin: 0 0 0 20px;
-  width: 40vw;
+  width: 50vw;
   max-width: 1000px;
   height: auto;
 }
@@ -561,7 +556,7 @@ p.center {
 .HHD4 {
   float: left;
   margin: 0 20px 0 0;
-  width: 40vw;
+  width: 50vw;
   max-width: 1000px;
   height: auto;
 }

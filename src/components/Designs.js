@@ -31,7 +31,7 @@ const Designs = () => {
                     <img className="HHD4" src={HHDCustom4} alt="HHD-Custom4" />
                     <p className="hhdp">Metalworking allows projects to have great visual appeal as well as structural integrity. Pieces are built to last and remain functional for years to come.</p>
                 </div>
-                <p className="hhdp-center">
+                <p className="hhdp">
                     Do you prefer custom and unique pieces of furniture that enhance the comfort, look, and feel of your home? Then bring your ideas, plans, and questions to the experts at Handy Home Designs!<br />
                     <br />
                     We would be happy to discuss projects and possibilities in greater detail with you!
