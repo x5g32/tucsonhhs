@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import About2 from '../images/About2.jpg';
 import Experience from '../components/Experience.js';
-import Disclaimer from '../components/Disclaimer.js';
+import Qualifications from '../components/Qualifications.js';
 
 const About = () => {
     return (
@@ -15,13 +15,12 @@ const About = () => {
                 </div>
             </div>
             <Experience />
+            <Qualifications />
             <div className="mainbox2">
                 <div className="linkbox">
                     <Link className="mainlink" to="/Services">Our Services</Link>
-                    <Link className="mainlink" to="/">Home</Link>
                     <Link className="mainlink" to="/Contact">Contact Us Now!</Link>
                 </div>
-                <Disclaimer />
             </div>
         </div>
     )

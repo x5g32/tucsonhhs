@@ -10,6 +10,60 @@
   text-align: right;
 }
 
+.menu {
+  background-color: #363331;
+  font-size: 4vmin;
+}
+
+.menu-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-li {
+  display: block;
+  text-align: center;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  cursor: pointer;
+  color: #CFC8BE;
+}
+
+.menu-li:hover {
+  color: #ffffff;
+  background-color: #5C5754;
+}
+
+.menu-link {
+  display: block;
+  text-decoration: none;
+  color: #CFC8BE;
+  padding: 6px;
+}
+
+.menu-link:hover {
+  color: #ffffff;
+  background-color: #5C5754;
+}
+
+.menubutton {
+  display: block;
+  float: right;
+  width: 5vmin;
+  height: 5vmin;
+  background-color: #E6E6E6;
+  background-image: url('./images/icons/menubutton1.png');
+  background-size: contain;
+  margin: 5px 0 0 0;
+  cursor: pointer;
+}
+
+.menubutton:hover {
+  background-color: #ffffff;
+}
+
 .borderbar {
   flex: 1 1 100%;
   height: 60px;
@@ -26,19 +80,6 @@
   font-size: 5.8vmin;
   color: #9c976b;
   font-family: 'Marcellus SC';
-}
-
-.infobox {
-  clear: left;
-  float: left;
-}
-
-.infolink {
-  font-size: 2.4vmin;
-  color: #e2e2e2;
-  font-family: 'Karla';
-  text-decoration: none;
-  padding: 0 10px 0 0;
 }
 
 .textlink {
@@ -79,8 +120,26 @@
 }
 
 h1 {
-  font-family: 'Marcellus';
   font-size: 4.7vmin;
+  font-family: 'Marcellus';
+}
+
+h1.work {
+  padding-left: 2.2vw;
+}
+
+h2 {
+  font-size: 5.8vmin;
+  text-align: center;
+  color: #708B9C;
+  font-family: 'Marcellus SC';
+  text-shadow: 2px 1px 1px #31444F;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 4vmin;
+  font-family: 'Marcellus';
 }
 
 .maptitle {
@@ -130,10 +189,12 @@ h1 {
 
 .picbox {
   flex: 1 1 100%;
-  height: 47vh;
+  height: 50vh;
   margin-top: -60px;
   background-image: url('./images/home-img-2.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000000;
   box-shadow: 0 0 5px 2px #000000;
 }
 
@@ -251,7 +312,7 @@ h1 {
 
 .slidebox {
   flex: 1 1 100%;
-  width: 95%;
+  width: 100%;
   max-width: 1000px;
   display: flex;
   flex-flow: column nowrap;
@@ -309,6 +370,13 @@ h1 {
 .linkboxhome {
   margin-bottom: calc(60px + 4vh);
   margin-top: 4vh;
+}
+
+.linkboxsimple {
+  flex: 1 1 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: wheat;
 }
 
 .mainlink {
@@ -447,6 +515,52 @@ p.center {
   border: 1px solid #5c5c5c;
 }
 
+.HHD {
+  float: left;
+  margin-bottom: 8vh;
+  width: 100%;
+}
+
+.hhdp {
+  font-size: 2.8vmin;
+  padding-top: 1vh;
+  text-align: center;
+}
+
+.HHD1 {
+  float: right;
+  margin: 0 0 0 20px;
+  width: 50vw;
+  max-width: 1000px;
+  height: auto;
+}
+
+.HHD2 {
+  float: left;
+  border: 1px solid #000000;
+  margin: 0 20px 0 0;
+  width: 50vw;
+  max-width: 1000px;
+  height: auto;
+}
+
+.HHD3 {
+  float: right;
+  border: 1px solid #000000;
+  margin: 0 0 0 20px;
+  width: 50vw;
+  max-width: 1000px;
+  height: auto;
+}
+
+.HHD4 {
+  float: left;
+  margin: 0 20px 0 0;
+  width: 50vw;
+  max-width: 1000px;
+  height: auto;
+}
+
 .footer {
   flex: 1 1 100%;
   display: flex;
@@ -525,12 +639,6 @@ p.center {
   .footeraside {
     display: flex;
     flex: 1 1 0;
-  }
-
-  .infobox {
-    float: right;
-    clear: none;
-    padding: 10px 0 0 0;
   }
 
   .infolink {

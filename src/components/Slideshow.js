@@ -51,7 +51,7 @@ class Slideshow extends Component {
 
     slideTemplate = () => {
         return (
-            <div className="slidebox boxshadow">
+            <div className="slidebox">
             <CSSTransition
                 in={this.state.trans}
                 timeout={500}
