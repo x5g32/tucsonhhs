@@ -517,20 +517,23 @@ p.center {
 
 .HHD {
   float: left;
-  margin: 8vh 0 0 0;
+  margin-bottom: 8vh;
   width: 100%;
-  background-color: white;
 }
 
 .hhdp {
-  font-size: 2.5vmin;
+  font-size: 2.2vmin;
   padding-top: 1vh;
-  background-color: lightgrey;
+}
+
+.hhdp-center {
+  font-size: 2.2vmin;
+  padding-top: 1vh;
+  text-align: center;
 }
 
 .HHD1 {
   float: right;
-  border: 1px solid #000000;
   margin: 0 0 0 20px;
   width: 40vw;
   max-width: 1000px;
@@ -557,7 +560,6 @@ p.center {
 
 .HHD4 {
   float: left;
-  border: 1px solid #000000;
   margin: 0 20px 0 0;
   width: 40vw;
   max-width: 1000px;
