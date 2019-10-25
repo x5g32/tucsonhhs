@@ -5,13 +5,15 @@
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "core-js": "^3.3.3",
-    "nodemailer": "^5.1.1",
+    "nodemailer": "^6.3.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-native": "^0.61.2",
     "react-offcanvas": "^0.4.0",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "^3.2.0",
-    "react-transition-group": "^2.9.0"
+    "react-transition-group": "^4.3.0",
+    "typescript": "^3.6.4"
   },
   "scripts": {
     "start": "react-scripts start",

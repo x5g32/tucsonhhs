@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Router, Route, Switch, Link, Redirect } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import { OffCanvas, OffCanvasMenu, OffCanvasBody } from "react-offcanvas";
 import CC2 from './images/CC2.png';
 import GHMark from './images/GitHub-Mark-Light-32px.png';
@@ -19,7 +19,7 @@ class App extends Component {
   componentWillMount() {
     // sets the initial state
     this.setState({
-      isMenuOpened: false
+      isMenuOpened: false,
     });
   }
 
@@ -46,7 +46,6 @@ class App extends Component {
                   <div className="aside-1"></div>
                   <div className="main">
                     <Switch>
-                      <Redirect from="/index.html" to="/HandyHomeDesigns" exact />
                       <Route path="/Map" component={Map} />
                       <Route path="/Work" component={Work} />
                       <Route path="/Services" component={Services} />
